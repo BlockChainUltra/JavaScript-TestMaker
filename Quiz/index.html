@@ -1,0 +1,144 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ninja Quiz</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- top section -->
+  <div class="intro py-3 bg-black text-center">
+    <div class="container">
+      <h2 class="text-success display-3 my-4">Unit Quiz</h2>
+    </div>
+  </div>
+
+  <div class="result alert-success d-none text-center display-3">
+    <p>Your score: <span class="text"> 0%</span>.</p>
+  </div>
+
+  <!-- quiz section -->
+  <div class="quiz py-4 bg-light">
+    <div class="container">
+      <h2 class="my-5 text-black text-center">Read each question carefully before clicking submit...</h2>
+
+      <form class="quiz-form text-black">
+        <div class="my-5">
+          <p class="lead font-weight-normal">1. What does a pilot do?</p>
+          <div class="custom-radio form-check my-2 text-black-50">
+            <input type="radio" name="q1" value="A" checked>
+            <label class="form-check-label">A pilot takes care of teeth.</label>
+          </div>
+          <div class="form-check my-2 text-black-50">
+            <input type="radio" name="q1" value="B">
+            <label class="form-check-label">A pilots flys planes.</label>
+          </div>
+        </div>
+        <div class="my-5">
+          <p class="lead font-weight-normal">2. Do postal workers deliver mail?</p>
+          <div class="form-check my-2 text-black-50">
+            <input type="radio" name="q2" value="A" checked>
+            <label class="form-check-label">No, they don't.</label>
+          </div>
+          <div class="form-check my-2 text-black-50">
+            <input type="radio" name="q2" value="B">
+            <label class="form-check-label">Yes, they do.</label>
+          </div>
+        </div>
+        <div class="my-5">
+          <p class="lead font-weight-normal">3. Which job designs buildings?</p>
+          <div class="form-check my-2 text-black-50">
+            <input type="radio" name="q3" value="A" checked>
+            <label class="form-check-label">Mechanic</label>
+          </div>
+          <div class="form-check my-2 text-black-50">
+            <input type="radio" name="q3" value="B">
+            <label class="form-check-label">Architect</label>
+          </div>
+        </div>
+        <div class="my-5">
+          <p class="lead font-weight-normal">4. Which job is scarier?</p>
+          <div class="form-check my-2 text-black-50">
+            <input type="radio" name="q4" value="A" checked>
+            <label class="form-check-label">Dentists. They put their fingers in peoples mouths!</label>
+          </div>
+          <div class="form-check my-2 text-black-50">
+            <input type="radio" name="q4" value="B">
+            <label class="form-check-label">Pilot. They could crash!</label>
+          </div>
+        </div>
+        
+      
+
+      <div class="my-5">
+        <p class="lead font-weight-normal">5. How do you spell architect??</p>
+        <div class="form-check my-2 text-black-50">
+          <input type="radio" name="q5" value="A" checked>
+          <label class="form-check-label">A-R-C-I-T-E-C-T</label>
+        </div>
+        <div class="form-check my-2 text-black-50">
+          <input type="radio" name="q5" value="B">
+          <label class="form-check-label">A-R-C-H-I-T-E-C-T</label>
+        </div>
+      </div>
+      
+    
+
+    <div class="my-5">
+      <p class="lead font-weight-normal">6. Who takes pictures?</p>
+      <div class="form-check my-2 text-black-50">
+        <input type="radio" name="q6" value="A" checked>
+        <label class="form-check-label">A mechanic takes pictures.</label>
+      </div>
+      <div class= "form-check my-2 text-black-50">
+        <input type="radio" name="q6" value="B">
+        <label class="form-check-label">A photographer takes pictures.</label>
+      </div>
+    </div>
+
+    <div class="my-5">
+      <p class="lead font-weight-normal">7. Choose the correct sentence:</p>
+      <div class="form-check my-2 text-black-50">
+        <input type="radio" name="q7" value="A" checked>
+        <label class="form-check-label">Pilots fly plane.</label>
+      </div>
+      <div class= "form-check my-2 text-black-50">
+        <input type="radio" name="q7" value="B">
+        <label class="form-check-label">An architect designs buildings.</label>
+      </div>
+    </div>
+
+ 
+  <h1>DRAG AND DROP</h1>
+  <div class="list">
+    <input type="text" class="input" placeholder="Add items in your list"/>
+    <span class="add">+</span>
+  </div>
+  <ul>
+    <li class="draggable" draggable="true">HTML</li>
+    <li class="draggable" draggable="true">CSS</li>
+    <li class="draggable" draggable="true">JavaScript</li>
+    <li class="draggable" draggable="true">PHP</li>
+    <li class="draggable" draggable="true">MySQL</li>
+  </ul>
+
+ 
+
+   
+
+
+    <div class="text-center">
+      <input type="submit" class="btn btn-success"> 
+    </div>
+  </form>
+
+    </div>
+  </div>
+  
+  <script src="app.js"></script>
+</body>
+</html>
